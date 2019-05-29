@@ -49,4 +49,6 @@ is maintained in Github. Versions in Git cover roughly the following design and 
 	Since the tests are commented out, this version is NOT checked in.
 6) Version 6 provides full code implementation to successfully handle incorrect data input.
     Checked in.
-
+7) Version 7 is the final release which allows the user to input command line parameters for start, 
+	stop, and family ID and provides useful output information for the user.
+	Final version checked in.
