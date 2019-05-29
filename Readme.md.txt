@@ -43,4 +43,10 @@ is maintained in Github. Versions in Git cover roughly the following design and 
 	rather than partial hour pay. This version is green and therefore checked into Git.
 4) Version 4 identifies common code and refactors the code to be more efficient while still
 	successfully calculating the basic use cases. Git checkin.
+5) Version 5 identifies four cases where input data data is not handled correctly by the basic 
+	implementation. These cases will need to be handled by validating the user input, preventing
+	incorrect execution, and returning information to the user about what is happening.
+	Since the tests are commented out, this version is NOT checked in.
+6) Version 6 provides full code implementation to successfully handle incorrect data input.
+    Checked in.
 
