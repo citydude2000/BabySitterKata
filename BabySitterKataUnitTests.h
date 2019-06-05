@@ -6,9 +6,7 @@ namespace BabySitterKataApplication
 	{
 		public: 
 			BabySitterPayCalculatorUnitTests() {};
-			void TotalPriceUnitTests(BabySitterPayCalculator *Calculator);
-		
-		protected:
 			~BabySitterPayCalculatorUnitTests() {};
+			void TotalPriceUnitTests(BabySitterPayCalculator *Calculator);
 	};
 }

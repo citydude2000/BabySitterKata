@@ -114,6 +114,9 @@ int main(int argc, char* argv[])
 		std::cout << "Your pay today is " << TotalPay << " dollars!\n";
 		std::cout << "You worked today from " << argv[1] << " to " << argv[2] << " for family " << argv[3] << "\n";
 	}
+
+	delete Calculator;
+	delete CalculatorUnitTests;
 	std::getchar();
 	return 0;
 }

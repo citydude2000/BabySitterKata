@@ -6,10 +6,10 @@ namespace BabySitterKataApplication
 	{
 		public: 
 			BabySitterPayCalculator() {};
+			~BabySitterPayCalculator() {};
 			int CalculateTotalPay(double StartTime, double StopTime, int FamilyID);
 
 		protected:
-			~BabySitterPayCalculator() {};
 			bool IsStartIndexValid(int StartIndex);
 			bool IsStopIndexValid(int StartIndex, int StopIndex);
 			bool IsFamilyValid(int FamilyID);
