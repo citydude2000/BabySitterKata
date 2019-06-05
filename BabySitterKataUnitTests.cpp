@@ -186,6 +186,7 @@ namespace BabySitterKataApplication
 	// Output: n/a
 	void BabySitterPayCalculatorUnitTests::TotalPriceUnitTests(BabySitterPayCalculator *Calculator)
 	{
+	#ifdef _DEBUG
 		Test5x7x2(Calculator);
 		Test5x1x2(Calculator);
 		Test5x1p2x2(Calculator);
@@ -208,5 +209,6 @@ namespace BabySitterKataApplication
 		Test5x4p15x2(Calculator);
 		Test6x8x3(Calculator);
 		Test8x7x3(Calculator);
+	#endif
 	}
 } //end of namespace
