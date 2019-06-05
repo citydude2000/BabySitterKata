@@ -154,6 +154,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BabySitterKata.cpp" />
+    <ClCompile Include="BabySitterKataUnitTests.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BabySitterKata.h" />
+    <ClInclude Include="BabySitterKataUnitTests.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
