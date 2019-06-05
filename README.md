@@ -52,6 +52,8 @@ is maintained in Github. Versions in Git cover roughly the following design and 
     Checked in.
 7) Version 7 is the final release which allows the user to input command line parameters for start, 
 	stop, and family ID and provides useful output information for the user.
-	Final version checked in.
+	Checked in.
 8) Version 8 incorporates suggestions from Pillar and separates the tests into a file with a test class.
+	Checked in.
+9) Version 9 Remove the test function output in release mode.
 	Final version checked in.
